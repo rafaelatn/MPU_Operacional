@@ -1,0 +1,10 @@
+# Etapa 1: grafo de roteamento sobre a malha SUMO
+networkx>=3.0
+sumolib
+matplotlib
+
+# Etapa 2: testes do Dijkstra
+pytest
+
+# Simulação (controle de veículos e semáforos via TraCI)
+traci
